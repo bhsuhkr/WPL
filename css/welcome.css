@@ -1,0 +1,225 @@
+footer {
+    background-color: #B3E8A4;
+    text-align: center;
+    color: white;
+    height: 60px;
+}
+
+footer p{
+  margin-top: 15px; 
+}
+
+
+.container-fluid{
+   padding: 0;
+}
+
+#topNav{s
+   margin: 0; 
+   padding: 0;
+  background-color: #B3E8A4;
+}
+
+#topNav button{
+  background-color: #4CAF50;
+  border-radius: 5px;
+}
+
+#topNav a{
+  text-decoration-color: none;
+}
+
+.row-eq-height{
+   display: flex;
+}
+
+img.logo{
+   
+}
+
+#LeftCol{
+   background-color: #F0FFF0; 
+   margin: 0; 
+   padding: 1%;
+}
+
+#LeftCol a {
+  color: black;
+}
+
+
+#MidCol p{
+   margin-left: 2%;
+
+}
+
+.navbar-text{
+   margin: 10px;
+}
+
+.panel{
+   margin:2px;
+}
+
+.row{
+   margin: 2px;
+}
+
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.search-container {
+  float: right;
+}
+
+.navbar input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+.navbar .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+.navbar .search-container button:hover {
+  background: #ccc;
+}
+
+.like{
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
+.unlike{
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+/* Set black background color, white text and some padding */
+
+
+#nav-bar {
+    background-color: cadetblue;
+}
+
+.nav-link a {
+    float:  left;
+    text-decoration: none;
+    /*display: block;*/
+    padding: 12px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#nav-bar li {
+    display: inline;
+    margin-right: 50px;
+}
+
+#nav-bar li a:hover {
+    color: black;
+}
+
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    padding: 120px 0px 85px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+.files input:focus{     outline: 2px dashed #92b0b3;  outline-offset: -10px;
+    -webkit-transition: outline-offset .15s ease-in-out, background-color .15s linear;
+    transition: outline-offset .15s ease-in-out, background-color .15s linear; border:1px solid #92b0b3;
+ }
+.files{ position:relative}
+.files:after {  pointer-events: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.color input{ background-color:#f1f1f1;}
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;  pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 37px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#file_input { display: none; }
+.drop-zone {
+  cursor: pointer;
+  user-select: none;
+  color: #555;
+  font-size: 18px;
+  width: 400px;
+  padding: 50px 0;
+  margin: 50px auto;
+  border: 2px dashed #0087F7;
+  border-radius: 5px;
+  background: white;
+}
+ 
+.drop-zone.hover {
+  background: #ddd;
+  border-color: #aaa;
+}
+ 
+.drop-zone.error {
+  background: #faa;
+  border-color: #f00;
+}
+ 
+.drop-zone.drop {
+  background: #afa;
+  border-color: #00a1ff;
+}
+ 
+.drop-zone.drop > .title { display: none; }
+ 
+.preview-container canvas { width: 150px; }
+ 
+.file-uploader-progress-bar { margin: 0 20px; }
+ 
+.file-uploader-progress-bar > * {
+  background-color: #71a5f3;
+  width: 0;
+  height: 5px;
+  border-radius: 5px;
+}
+ 
+.wrapper.uploading .progress { background-color: #8c8c8c; }

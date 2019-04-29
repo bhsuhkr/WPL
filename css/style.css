@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+/*Logo Color : #8fdd3c*/
+body {
+	/*background-color: #F5FFFA;*/
+	background-image: url("../posterPic/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-size: 100% auto;*/
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*.form-login {
+	max-width: 500px;
+	padding: 19px 29px 29px;
+	margin: 0 auto;
+	background-color: #fff;	
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+	box-shadow: 0 1px 2px rgba(0,0,0,.05);			
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#990000;
+	font-weight:lighter;
+}
+.form-login .form-login-heading {
+    color:#00A2D1;
+}*/
+/*
+.form-login input[type="text"],
+.form-login input[type="password"],
+.form-login input[type="email"] {
+    font-size: 16px;
+    height: 45px;
+    padding: 7px 9px;
+}*/
+.body-container {
+	margin-top:110px;
+}
+.navbar-brand {
+	font-family:"Lucida Handwriting";
+}
+#btn-submit{
+	height:45px;
+}
+
+.container{
+	/*background-color: #DCDCDC;*/
+	background-color: #FFFFFF;
+	margin-top: 5%;
+	border-radius: 5px;
+	border: double;
+	width: 400px;
+}
+
+.container h2{
+	text-align: center;
+}
+
+.container .btn-login{
+	background-color: #778899;
+	color: white;
+	padding: 10px 10px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+}
+
+.container a{
+	float: right;
+	padding-bottom: 10px;
+}
+
+.container input, button{
+	width: 100%;
+	padding: 10px 10px;
+	margin: 8px 0;
+	border-radius: 5px;
+	background-color: #F9FFFC;
+	font-family: bold;
+}
+
+#logoImg {
+	display: block;
+    margin: 0 auto;
+	margin-left: auto;
+  	margin-right: auto;
+
+}
